@@ -5,10 +5,30 @@
 |
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Foreveryone-cz/win-sshfs.svg)](http://isitmaintained.com/project/Foreveryone-cz/win-sshfs "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Foreveryone-cz/win-sshfs.svg)](http://isitmaintained.com/project/Foreveryone-cz/win-sshfs "Percentage of issues still open")
-WinSshFS Foreveryone
+
+Dokan-NetClient
 ========================
 
-Download [latest release here](https://github.com/Foreveryone-cz/win-sshfs/releases).
+[本次更新]
+
+*   支持最新版本的Dokan内核,建议Dokan内核版本>1.4.0.1000版本
+*   修改SftpFilesystem类支持适配最新版本的Dokan内核
+*   NetFramework版本升级到4.8最新版本
+
+[接下来的计划]
+
+*  保持与Dokan内核版本同步更新。
+*  更新Renci.SshNet内核库版本,以便于更稳定
+*  利用dotnet4.8新版本的语法梳理代码
+
+[PR提交]
+
+欢迎大家提交PR,我们一起完善这个东西,这个东西是因为我们项目中需要用到，所以才一直保持更新状态.
+
+[注意事项]
+
+感谢本项目的作者，如果您是本项目的作者，欢迎您提交PR，愿意把代码与您合并，然后一起完善这个项目,谢谢！
+
 
 Main features:
 *   Windows 10 Support
